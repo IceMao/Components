@@ -1,0 +1,38 @@
+$bgColor: #1ABC9C;
+$progressWidth: 300px;
+$stripHeight: 10px;
+.progress{
+	width: $progressWidth;
+	.proStrip{	
+		position: relative;
+		margin:10px 0px 7px 13px;
+		height: $stripHeight;
+		width:100%;
+		background:#ebedef;
+		border:1px solid #eee;
+		border-radius:15px;
+		.centerStrip{
+			height:100%;
+			margin:0;
+			background-color: $bgColor;			
+			border-radius:15px;
+			transition: all 0.7s linear;
+		}
+		span{
+			position: absolute;
+		    top: 0px;
+		    left: 104%;
+		    font-size: 1em;
+		    color: #1abc9c;
+		    font-weight: 600;
+		}
+	}
+
+}
+
+// @keyframe hadColor{
+// 	0% {background-color:rgba(51, 255, 153, 0.63);}
+// 	25% {background-color:rgba(51, 255, 106, 0.64);}
+// 	50% {background-color:rgba(232, 255, 51, 0.63);}
+// 	100% {background-color:rgba(255, 51, 51, 0.64);}
+// }

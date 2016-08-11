@@ -1,0 +1,36 @@
+{
+  "name": "angular-components",
+  "version": "1.0.0",
+  "description": "angular components",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "IceMao"
+  },
+  "author": "Ice",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.21.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-messages": "^1.5.6",
+    "angular-ui-router": "^0.3.0"
+  }
+}
