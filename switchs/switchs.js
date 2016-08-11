@@ -8,7 +8,6 @@ app.directive('vSwitch', ['$compile', function($compile) {
         },
         template: switchTempl,
         link: function(scope, iElem, iAttrs) {
-            console.log(scope.switch)
             if (!scope.switch.content && !(scope.switch.content instanceof Array)) {
                 scope.switch.content = ["ON", "OFF"]                
             }
