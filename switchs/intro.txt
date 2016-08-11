@@ -1,0 +1,26 @@
+switch开关：
+
+template: switchTempl
+
+接口：
+switchs = {
+	content:["开","关"],    //html渲染文字，为空默认ON/OFF
+	values:["true","false"] //设定值，可以是true/false或者是0/1
+};
+value   //返回值
+
+
+
+html结构：
+
+<div v-switch switch='switchs' value="returnvalue"></div>
+
+
+scss：
+里面注释很详细
+
+
+
+//修改样式记得js中的ng-style属性也要修改
+
+ 

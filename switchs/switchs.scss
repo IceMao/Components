@@ -1,0 +1,65 @@
+
+$bigboxwidth:44px;		
+$bigboxheight:22px;		//整体大小控制
+$backg:#34495e;			//开关的背景颜色
+$fonts:12px;			//文字大小
+$switchbtncolor:#1abc9c; //按钮的颜色
+$radius:22px;			//圆角
+$switch:22px;			//按钮选项宽度
+$font-color:#1abc9c; //字体颜色
+.bigbox{						
+	width:$bigboxwidth;
+	height:$bigboxheight; 
+	overflow:hidden;
+	border-width:0px;		//边框宽度
+	border-style:solid;		//边框线性
+	border-color:#03a9f4;	//边框颜色
+	border-radius:$radius;
+	-moz-border-radius:$radius;  
+	-webkit-border-radius:$radius;
+}	
+
+
+.switchbox{
+	width:$switch*3;		
+	height:$bigboxheight;
+	background-color:$backg; 
+	position:relative;
+	left:0;
+	transition:all 0.5s;
+	 cursor:pointer;
+}	
+	.switchleft {
+		width:$switch;
+		height:$bigboxheight;
+		float:left;
+		overflow:hidden;
+		font-size:$fonts; 
+		text-align:center;
+		line-height: $bigboxheight; 
+		font-size:600;   
+		color:$font-color;
+	}
+	.switchbtn{
+			width:$switch;
+			height:$bigboxheight;
+			background-color:$switchbtncolor;
+			float:left;
+			border-radius:$radius;
+			-moz-border-radius:$radius;  
+			-webkit-border-radius:$radius;
+	}
+	.switchright{
+		width:$switch;
+		height:$bigboxheight;
+		float:left;
+		overflow:hidden;
+		font-size:$fonts; 
+		text-align:center;
+		line-height: $bigboxheight;  
+		font-size:600; 
+		color:$font-color;
+	}
+
+
+
