@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Components</title>
+</head>
+<body ui-view ng-controller="myCtrl">
+	Hello World
+	总量：<input type="text" ng-model="progress.total">
+	已完成数量：<input type="text" ng-model="progress.had">
+	
+	<div v-progress progress="progress"></div>
+	<script></script>
+	<script src="build.js"></script>
+	<script>
+		
+	</script>
+</body>
+</html>
