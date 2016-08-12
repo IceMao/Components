@@ -1,0 +1,28 @@
+<div class="calendar">
+	<!-- <form ng-keyup="calenderInit()">
+		请输入年份：<input type="text" ng-model="year">
+		请输入月份：<input type="text" ng-model="month">
+		请输入几号：<input type="text" ng-model="day">
+	</form> -->
+	<!-- <textarea cols="20" rows="10">{{week}}</textarea> -->
+	<hr>
+	{{year}}年{{month}}月
+	<span class="btn" ng-click = "beforeMonth(year,month)">上月</span>
+	<span class="btn" ng-click = "afterMonth(year,month)">下月</span>
+	<div class="table">
+		<div class="thead">
+			<div class="weekH">星期日</div>
+			<div class="weekH">星期一</div>
+			<div class="weekH">星期二</div>
+			<div class="weekH">星期三</div>
+			<div class="weekH">星期四</div>
+			<div class="weekH">星期五</div>
+			<div class="weekH">星期六</div>
+		</div>
+		<div class="tbody">
+			<div ng-repeat="x in allDay track by $index">
+				<span class="weektd">{{x}}</span>
+			</div>
+		</div>
+	</div>
+</div>

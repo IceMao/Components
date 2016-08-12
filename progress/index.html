@@ -8,13 +8,10 @@
 <body ui-view ng-controller="myCtrl">
 	Hello World
 	总量：<input type="text" ng-model="progress.total">
-	已完成数量：<input type="text" ng-model="progress.had">
+	已完成数量：<input type="text" ng-model="progress.complete">
 	
-	<div v-progress progress="progress"></div>
-	<script></script>
+	<div i-progress progress="progress"></div>
+	<div i-calendar calendar="calendar"></div>
 	<script src="build.js"></script>
-	<script>
-		
-	</script>
 </body>
 </html>

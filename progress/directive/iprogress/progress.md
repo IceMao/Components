@@ -1,18 +1,18 @@
-###progress æ–‡æ¡£è¯´æ˜Ž ###
-######1. å¼•å…¥æ’ä»¶######
+###progress ÎÄµµËµÃ÷ ###
+######1. ÒýÈë²å¼þ######
     $scope.progress = {
-		total: 0,//æ€»å€¼
-		had: 0,//å·²å®Œæˆæ•°å€¼
-		//æ ·å¼æŽ¥å£
+		total: 0,//×ÜÖµ
+		had: 0,//ÒÑÍê³ÉÊýÖµ
+		//ÑùÊ½½Ó¿Ú
 		option:{
 	    }
 	}
-######2. æŽ¥å£######
+######2. ½Ó¿Ú######
     $scope.progress = {
-		//æ ·å¼è°ƒæ•´
+		//ÑùÊ½µ÷Õû
 		option:{
-	        bgColor:"#1ABC9C",//è¿›åº¦æ¡é¢œè‰²
-	        progressWidth: "260",//æ•´ä½“å®½åº¦
-	        stripHeight: "12"//æ•´ä½“é«˜åº¦
+	        bgColor:"#1ABC9C",//½ø¶ÈÌõÑÕÉ«
+	        progressWidth: "260",//ÕûÌå¿í¶È
+	        stripHeight: "12"//ÕûÌå¸ß¶È
 	    }
 	}

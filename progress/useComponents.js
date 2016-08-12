@@ -2,7 +2,7 @@
 app.controller('myCtrl',['$scope', function($scope) {
 	$scope.progress = {
 		total: 0,
-		had: 0,
+		complete: 0,
 		//样式调整
 		option:{
 	        bgColor:"#1ABC9C",//进度条颜色
@@ -10,4 +10,7 @@ app.controller('myCtrl',['$scope', function($scope) {
 	        stripHeight: "12"//整体高度
 	    }
 	}
+	// $scope.calendar = {
+	// 	year:2000
+	// }
 }]);

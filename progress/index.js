@@ -9,5 +9,8 @@ require('./directive/iprogress/progress.scss')
 require('./directive/iprogress/progressDirective.js')
 progressTempl = require('./directive/iprogress/progress.html')
 
+require('./directive/icalendar/calendar.scss')
+require('./directive/icalendar/calendarDirective.js')
+calendarTempl = require('./directive/icalendar/calendar.html')
 
 
